@@ -1,28 +1,21 @@
+#include <stdio.h>
 
+int main() {
+    int a = 7;
+    int b = 2;
+    float   result;
 
+    result = a + b;
+    printf("a + b = %.0f\n", result);
 
+    result = a - b;
+    printf("a - b = %.0f\n", result);
 
-//  a = 7  , b =2          7+2 = 9         7-2 =5        7*2       7/2
+    result = a * b;
+    printf("a * b = %.0f\n", result);
 
-#include<stdio.h>
-int main(){
-	int a = 7 ;
-	int b = 2 ;
-	int tong = a +b ;
-	int hieu = a- b ;
-	int nhan  = a * b ; 
-	float  chia = (float)a/b  ;
-	printf(" a la %d\n  ", a  );
-	printf(" b la %d\n  ",  b );
-	printf(" a +b = %d\n " , tong );
-	printf(" a-b = %d\n ",hieu );
-	printf(" a*b = %d\n ", nhan );
-	printf(" a/b = %.2f\n ",chia );
+    result = (float)a/b;   // chia nguyên
+    printf("%d / %d = %.2f", a , b , result );
 
-	
-	
-	
-	
-	
-	
+    return 0;
 }
