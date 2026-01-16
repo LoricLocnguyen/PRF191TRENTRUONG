@@ -4,7 +4,7 @@ int main(){
 	printf("Nhap a la :");
 	scanf("%f",&a);
 	float b;
-	printf("Nhap b la :  ");
+	printf("Nhap b la :  ");xx
 	scanf("%f",&b);
 	float ketqua = a +b;
 	printf("Ketquatongla %.02f ", ketqua );
